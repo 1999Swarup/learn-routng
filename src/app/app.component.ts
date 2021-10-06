@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'learn-routng';
+  title = 'news-site';
+
+  onActivate(event:any) {
+    window.scroll(0,0);
+}
 }
